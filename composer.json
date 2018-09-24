@@ -1,0 +1,23 @@
+{
+    "name": "versatilelibs/laravel-searchable",
+    "description": "Eloquent model search trait.",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Assunção",
+            "email": "fabio23gt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "4.2.x|~5.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Versatile\\Searchable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
